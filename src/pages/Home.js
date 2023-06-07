@@ -15,7 +15,7 @@ function Home() {
       setOnce(false);
     }
     axios
-      .get("http://www.mocky.io/v2/5d73bf3d3300003733081869")
+      .get("https://www.mocky.io/v2/5d73bf3d3300003733081869")
       .then((res) => {
         setUsers([...res.data]);
       })
